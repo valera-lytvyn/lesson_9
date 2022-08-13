@@ -1,0 +1,277 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Proxima_Nova';
+  src: url('../fonts/ProximaNova-Regular.eot');
+  src: local('☺'), url('../fonts/ProximaNova-Regular.woff') format('woff'), url('../fonts/ProximaNova-Regular.ttf') format('truetype'), url('../fonts/ProximaNova-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura_PT';
+  src: url('../fonts/FuturaPT-Heavy.eot');
+  src: local('../fonts/Futura PT Heavy'), local('FuturaPT-Heavy'),
+    url('../fonts/FuturaPT-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FuturaPT-Heavy.woff2') format('woff2'),
+    url('../fonts/FuturaPT-Heavy.woff') format('woff'),
+    url('../fonts/FuturaPT-Heavy.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+@font-face {
+  font-family: 'Georgia';
+  src: url('../fonts/Georgia.eot');
+  src: local('../fonts/Georgia'),
+    url('../fonts/Georgia.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Georgia.woff2') format('woff2'),
+    url('../fonts/Georgia.woff') format('woff'),
+    url('../fonts/Georgia.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Georgia';
+  src: url('../fonts/Georgia-Italic.eot');
+  src: local('../fonts/Georgia Italic'), local('Georgia-Italic'),
+    url('../fonts/Georgia-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Georgia-Italic.woff2') format('woff2'),
+    url('../fonts/Georgia-Italic.woff') format('woff'),
+    url('../fonts/Georgia-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/*--------------------*/
+.big_box {
+  background: #464f53;
+  display: flex;
+  justify-content: center;
+
+  min-height: 100%;
+
+}
+
+.container {
+  background-color: #fff;
+  margin: 150px 70px 0px 70px;
+  width: 100%;
+  min-height: 100%;
+
+
+
+
+}
+
+.header {
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  height: 265px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+}
+
+.black {
+  background: #181818;
+  width: 73.33%;
+  height: 190px;
+  display: flex;
+  /* min-width: 600px; */
+}
+
+.black_box {
+  border-bottom: 3px solid #303030;
+  padding-left: 5px;
+  margin: 50px 0 50px 60px;
+  width: 100%;
+}
+
+.black_box_text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.header_title {
+  font-size: 15px;
+  letter-spacing: 5px;
+  color: #767676;
+  font-family: "Proxima_Nova";
+  margin-bottom: 15px;
+}
+
+.header_text {
+  font-size: 48px;
+  color: #fefefe;
+  font-weight: 400;
+  font-family: "Playfair Display";
+  border-right: #afb1b2 2px solid;
+  padding-right: 5px;
+}
+
+.yellow {
+  background: #f7bc2c;
+  width: 67.5%;
+  height: 75px;
+  display: flex;
+  align-items: center;
+}
+
+.icon_box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-left: 10px;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+  margin-left: 30px;
+
+}
+
+.wrap_text {
+  /* height: 100%; */
+  margin-left: 70px;
+  padding: 190px 12.56% 0 6%;
+  border-left: 2px solid #e8ebec;
+  min-height: 100%;
+}
+
+.author {
+  font-size: 20px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #b4b4b4;
+  font-family: "Proxima_Nova";
+  margin-bottom: 50px;
+}
+
+.title_1 {
+  font-size: 78px;
+  letter-spacing: 4px;
+  color: #2a2a2a;
+  font-family: "Futura_PT";
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.title_2 {
+  font-size: 30px;
+  color: #8f8f8f;
+  font-style: italic;
+  font-family: "Georgia";
+  text-align: left;
+  margin-bottom: 55px;
+}
+
+.paragraph_1,
+.paragraph_2 {
+  font-size: 27px;
+  line-height: 40px;
+  color: #000000;
+  font-family: "Georgia";
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.span {
+  font-style: italic;
+}
