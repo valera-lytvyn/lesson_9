@@ -139,7 +139,6 @@ h6 {
   background: #464f53;
   display: flex;
   justify-content: center;
-
   min-height: 100%;
 
 }
@@ -172,7 +171,6 @@ h6 {
   width: 73.33%;
   height: 190px;
   display: flex;
-  /* min-width: 600px; */
 }
 
 .black_box {
@@ -228,7 +226,6 @@ h6 {
 }
 
 .wrap_text {
-  /* height: 100%; */
   margin-left: 70px;
   padding: 190px 12.56% 0 6%;
   border-left: 2px solid #e8ebec;
