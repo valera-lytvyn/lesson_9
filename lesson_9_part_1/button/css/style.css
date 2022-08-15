@@ -278,6 +278,6 @@ h6 {
   font-style: italic;
 }
 
-.icon:hover {
+.icon:active {
   filter: invert(100%)
 }
