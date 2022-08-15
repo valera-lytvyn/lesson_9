@@ -194,13 +194,18 @@ h6 {
   margin-bottom: 15px;
 }
 
-.header_text {
+.input {
+
+  background-color: #181818;
   font-size: 48px;
-  color: #fefefe;
   font-weight: 400;
   font-family: "Playfair Display";
-  border-right: #afb1b2 2px solid;
-  padding-right: 5px;
+  color: #fefefe;
+}
+
+.input::placeholder {
+  color: #fefefe;
+  opacity: .7;
 }
 
 .yellow {
@@ -271,4 +276,8 @@ h6 {
 
 .span {
   font-style: italic;
+}
+
+.icon:hover {
+  filter: invert(100%)
 }
